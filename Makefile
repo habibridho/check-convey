@@ -9,3 +9,6 @@ testall:
 
 testwithexclude:
 	go test ./... -v -race -short | grep -v mock
+
+testngaco:
+	go test ./... -v -race -short | hoho
